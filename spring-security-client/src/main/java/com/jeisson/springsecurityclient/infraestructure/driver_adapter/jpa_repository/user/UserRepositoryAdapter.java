@@ -4,8 +4,10 @@ import com.jeisson.springsecurityclient.domain.model.user.UserModel;
 import com.jeisson.springsecurityclient.domain.model.user.gateway.UserRepository;
 import com.jeisson.springsecurityclient.infraestructure.driver_adapter.util.UserMapper;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Repository;
 
 @RequiredArgsConstructor
+@Repository
 public class UserRepositoryAdapter implements UserRepository {
     private final UserRepositoryJpa userRepositoryJpa;
     private final UserMapper userMapper;
