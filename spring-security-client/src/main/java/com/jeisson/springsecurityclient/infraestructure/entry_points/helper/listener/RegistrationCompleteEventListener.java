@@ -1,6 +1,7 @@
-package com.jeisson.springsecurityclient.infraestructure.entry_points.helper;
+package com.jeisson.springsecurityclient.infraestructure.entry_points.helper.listener;
 
 import com.jeisson.springsecurityclient.domain.model.user.UserModel;
+import com.jeisson.springsecurityclient.infraestructure.entry_points.helper.RegistrationCompleteEvent;
 import org.springframework.context.ApplicationListener;
 
 import java.util.UUID;
